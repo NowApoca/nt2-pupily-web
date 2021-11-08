@@ -14,6 +14,12 @@ const routes = [
       import("../views/About.vue"),
   },
   {
+    path: "/pupily/:id",
+    name: "pupilySingle",
+    component: () =>
+      import("../views/PupilySingle.vue"),
+  },
+  {
     path: "/login",
     name: "Login",
     component: () =>

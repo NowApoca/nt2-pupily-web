@@ -2,19 +2,21 @@
   <div class="event-card">
     <div class="card">
       <div class="card-content">
-        <h2 class="is-size-4 has-text-weight-bold">Pupily name</h2>
-        <small class="event-date">Pupily stats</small>
+        <h2 class="is-size-4 has-text-weight-bold">{{ pupily.name }}</h2>
+        <small class="event-date">{{ pupily.date }}</small>
         <span>Pupily description</span>
       </div>
     </div>
   </div>
 </template>
 <script>
-  export default {};
+export default {
+    props: ['pupily'],
+};
 </script>
 <style scoped>
   .card {
-	 background-image: url('https://placekitten.com/400/400');
+	 background-image: url('../assets/baby-pupi.jpg');
 	 height: 200px;
 	 background-position: center;
 	 background-size: cover;
@@ -50,5 +52,4 @@
 	 top: 0;
 	 right: 0;
 }
- 
 </style>
