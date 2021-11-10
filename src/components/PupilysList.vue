@@ -26,7 +26,7 @@
         pupilys: [
           {
             id: 1,
-            name: 'Charity Ball',
+            name: 'Jack Studily',
             category: 'Fundraising',
             description:
               'Spend an elegant night of dinner and dancing with us as we raise money for our new rescue farm.',
@@ -42,7 +42,7 @@
           },
           {
             id: 2,
-            name: 'Rescue Center Goods Drive',
+            name: 'Chris Smart',
             category: 'Adoptions',
             description:
               'Come to our donation drive to help us replenish our stock of pet food, toys, bedding, etc. We will have live bands, games, food trucks, and much more.',
