@@ -24,7 +24,7 @@ export default {
 .card-content {
 	padding-top: 50px;
 	color: #fff;
-	background-color: rgba(0, 0, 0, 0.35);
+	background-color: rgba(152, 152, 152, 0.35);
 	top: 0;
 	padding: 10px;
 	height: 200px;
