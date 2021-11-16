@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "ejemplocasodeuso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/testCU_solicitarEnvioInfoDeGatitos.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.7.0",
+    "uuid": "^8.3.2"
+  }
+}
